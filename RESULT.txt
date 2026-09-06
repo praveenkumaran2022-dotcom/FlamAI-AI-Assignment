@@ -1,0 +1,10 @@
+FlamAI AI Assignment - recovered parameters
+
+theta = 30.0000 degrees (approximately)
+M     = 0.030000
+X     = 55.0000
+
+Desmos:
+(t*cos(30*pi/180)-e^(0.03*abs(t))*sin(0.3*t)*sin(30*pi/180)+55,
+ 42+t*sin(30*pi/180)+e^(0.03*abs(t))*sin(0.3*t)*cos(30*pi/180))
+Domain: 6 <= t <= 60
