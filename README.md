@@ -58,8 +58,8 @@ This reduces the fitting problem to only three unknowns: θ, M and X. `scipy.opt
 ## Run
 
 ```bash
-pip install -r requirements.txt
-python main.py
+py -m pip install -r requirements.txt
+py main.py
 ```
 
 ## Desmos equation
@@ -68,7 +68,7 @@ Use radians in Desmos:
 
 ```text
 (t*cos(30*pi/180)-e^(0.03*abs(t))*sin(0.3*t)*sin(30*pi/180)+55,
- 42+t*sin(30*pi/180)+e^(0.03*abs(t))*sin(0.3*t)*cos(30*pi/180))
+42+t*sin(30*pi/180)+e^(0.03*abs(t))*sin(0.3*t)*cos(30*pi/180))
 ```
 
 Set the parameter domain to:
