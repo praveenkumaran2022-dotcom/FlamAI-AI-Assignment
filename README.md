@@ -77,8 +77,6 @@ Set the parameter domain to:
 6 <= t <= 60
 ```
 
-After entering the equation, use Desmos' Share/Copy Link option to generate the personal Desmos URL for the submission.
-
 ## Files
 
 - `xy_data.csv` — supplied assignment data
